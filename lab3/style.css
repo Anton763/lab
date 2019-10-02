@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  text-align:center;
+  margin-top: 20px;
+  color: purple;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 0;
+}
+
+.kalendar {
+  display: block;
+}
+
+.day {
+  text-align: center;
+  color: darkred
+}
+
+.day-num {
+  text-align: center;
+  font-size: 35px;
+  border: 2px solid black;
+  border-bottom: none;
+  padding: auto;
+  width: 218px;
+  height: 97px;
+}
+.free {
+  background-color: rgb(224, 222, 222); 
+}
+
+.day-old {
+  color: darkblue;
+}
+
+.but {
+  width: 70px;
+  height: auto;
+  margin-top: 10px; 
+}
+.night {
+  background-color: black;
+  color: white;
+}
+
+.night .day-num {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.bt {
+  display: none;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.night .day-old {
+  color: chartreuse;
+}
+.night .day {
+  color: aqua;
+}
+.night  .name {
+  color: gold;
+}
+.night .free {
+  background-color: darkred;
+}
