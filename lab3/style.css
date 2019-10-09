@@ -3,10 +3,23 @@ body {
   padding: 0;
 }
 
+.color {
+  border: 5px solid rgb(107, 106, 106);
+}
+
 .name {
-  text-align:center;
-  margin-top: 20px;
-  color: purple;
+  display: flex;
+  margin-top: -18px;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(104, 104, 104);
+}
+
+.name-number {
+  margin-left: 10px;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .container {
@@ -16,62 +29,103 @@ body {
   margin-top: 0;
 }
 
-.kalendar {
+.calendar {
   display: block;
 }
 
 .day {
-  text-align: center;
+  text-align: end;
   color: darkred
 }
 
-.day-num {
-  text-align: center;
+.day-number {
+  text-align: end;
   font-size: 35px;
   border: 2px solid black;
   border-bottom: none;
-  padding: auto;
-  width: 218px;
+  padding-top: 0;
+  width: 217px;
   height: 97px;
 }
-.free {
-  background-color: rgb(224, 222, 222); 
+
+.day-number-color {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+}
+
+.position {
+  position: relative;
+}
+
+.day-number-holiday {
+  font-size: 20px;
+  color: red;
+}
+
+.day-number-month {
+  font-size: 30px;
+  color: rgb(54, 53, 53);
+}
+
+.freedom {
+  background-color: rgb(224, 222, 222);
 }
 
 .day-old {
-  color: darkblue;
+  color: rgb(61, 61, 61);
 }
 
-.but {
+.button {
   width: 70px;
   height: auto;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
+
 .night {
   background-color: black;
   color: white;
 }
 
-.night .day-num {
+.night .day-number {
   border: 2px solid rgb(255, 255, 255);
 }
 
-.bt {
+.button-input {
   display: none;
 }
-.display {
+
+.header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
+
 .night .day-old {
   color: chartreuse;
 }
+
 .night .day {
   color: aqua;
 }
-.night  .name {
+
+.night .name {
   color: gold;
 }
-.night .free {
+
+.night .freedom {
   background-color: darkred;
+}
+
+.night .day-number-holiday {
+  color: white;
+}
+
+.night .day-number-month {
+  color: white;
 }
