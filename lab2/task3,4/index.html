@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>lab2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-video">
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv9nDc1O2zA" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mb-4T2hpWWI" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mb-4T2hpWWI" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv9nDc1O2zA" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video-button">
+        <button class="video-button-js" onclick="changevideo(0)">Видео 1</button>
+        <button class="video-button-js" onclick="changevideo(1)">Видео 2</button>
+        <button class="video-button-js" onclick="changevideo(2)">Видео 3</button>
+        <button class="video-button-js" onclick="changevideo(3)">Видео 4</button>
+      </div>
+    </div>
+    <div>
+      <h1 class="title">КОМЕНТАРИИ</h1>
+      <div class="comment-block">
+        <h3 class="name">User 1</h2>
+          <p class="text">Cool</p>
+      </div>
+      <div class="comment-block">
+        <h3 class="name">User 2</h2>
+          <p class="text">Cool</p>
+      </div>
+      <div class="comment-block">
+        <h3 class="name">User 3</h2>
+          <p class="text">Cool</p>
+      </div>
+      <div class="comment-block">
+        <h3 class="name">User 4</h2>
+          <p class="text">Cool</p>
+      </div>
+      <div class="comment-registration">
+        <form class="comment-form">
+          <input class="CommentName" type="text" pattern="[А-Яа-яЁё\s]+$" required placeholder="Имя и Фамилия">
+          <input class="CommentDiscription" type="comment" pattern="[А-Яа-яЁё\s]+$" required
+            placeholder="Ваш коментарий">
+          <button class="comment-button">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
