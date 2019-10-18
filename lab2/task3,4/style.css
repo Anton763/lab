@@ -29,7 +29,7 @@ iframe.active {
 }
 
 .video iframe {
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .video-button {
@@ -43,19 +43,22 @@ iframe.active {
     margin-left: 10px;
     width: 100px;
     height: 55px;
-    border-radius: 20px;
-    border: 5px solid #242222;
-    background: #444141;
-    color: white;
+    border-radius: 10px;
+    border: 2px solid #8d8282;
+    background: #aca9a9;
+    color: rgb(0, 0, 0);
     outline: none;
 
 }
 
 .comment-block {
+    height: 80px;
+    width: 650px;
+    margin: auto;
     margin-top: 20px;
-    box-shadow: #272121;
+    border: 2px solid #8d8282;
     margin-left: 0px;
-    background: #3F3D3D;
+    background: #aca9a9;
     border-radius: 10px;
     padding-left: 10px;
     display: none;
@@ -66,18 +69,17 @@ iframe.active {
 }
 
 .name {
-    color: white;
+    color: rgb(22, 20, 20);
     font-family: arial;
 }
 
 .text {
-    color: white;
+    color: rgb(19, 16, 16);
 }
 
 .comment-registration {
     display: block;
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 .comment-form {
@@ -85,21 +87,21 @@ iframe.active {
     height: auto;
 }
 
-.CommentName {
+.Comment-name {
     outline: none;
     width: 400px;
     height: 40px;
     border-radius: 10px;
-    border: 5px solid #6E6D6D;
+    border: 2px solid #6E6D6D;
 }
 
-.CommentDiscription {
+.Comment-discription {
     outline: none;
     margin-top: 10px;
-    width: 600px;
+    width: 650px;
     height: 60px;
     border-radius: 10px;
-    border: 5px solid #6E6D6D;
+    border: 2px solid #6E6D6D;
 }
 
 .comment-button {
@@ -107,15 +109,16 @@ iframe.active {
     margin-top: 10px;
     width: 140px;
     height: 40px;
-    border: 2px solid #000000;
+    border: 2px solid #8d8282;
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
+    margin-left: 300px;
 }
 
 .title {
-    margin-top: 20px;
+    margin-top: 30px;
     color: black;
     display: flex;
     justify-content: center;
-    font-family: Arial;
+    font-family: arial;
 }
