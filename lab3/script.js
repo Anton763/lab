@@ -1,14 +1,14 @@
-var myCheck = document.getElementById('theme'),
-  myMain = document.getElementById('color-id'),
+var themebutton = document.getElementById('theme'),
+  color = document.getElementById('background-color'),
   checkImg = document.querySelectorAll('img.check');
 
 function theme() {
-  if (myCheck.checked) {
-    myMain.classList.toggle('night');
+  if (themebutton.checked) {
+    color.classList.toggle('night');
     checkImg[0].className = 'check none';
     checkImg[1].className = 'check';
   } else {
-    myMain.classList.toggle('night');
+    color.classList.toggle('night');
     checkImg[0].className = 'check';
     checkImg[1].className = 'check none';
   }
