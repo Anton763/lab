@@ -7,7 +7,7 @@ body {
 .head {
   display: flex;
   justify-content: space-around;
-  border-top:none;
+  border-top: none;
   border-right: none;
   border-left: none;
   align-items: center;
@@ -48,13 +48,13 @@ body {
   font-size: 30px;
 }
 
-.menu-list {
+.menu-item {
   font-size: 20px;
   text-decoration: none;
   color: rgb(172, 7, 2);
 }
 
-.main {
+main {
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -67,15 +67,17 @@ body {
   margin-right: -40px;
 }
 
-.content {
+.product {
   display: flex;
   flex-wrap: wrap;
 
 }
-.content a{
+
+.content a {
   text-decoration: none;
 }
-.content-block {
+
+.product-block {
   display: block;
   padding-bottom: 70px;
   padding-left: 50px;
@@ -87,7 +89,7 @@ body {
 }
 
 .text-basket {
-  border-radius:30px ;
+  border-radius: 30px;
   padding: 6px;
   background: rgb(83, 3, 3);
   text-decoration: none;
