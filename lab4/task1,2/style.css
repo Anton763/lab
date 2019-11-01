@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  border-top:none;
+  border-right: none;
+  border-left: none;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
+}
+
+.head-img {
+  height: 150px;
+  width: auto;
+}
+
+.head-basket {
+  margin-top: 20px;
+  padding-left: -70px;
+}
+
+.head-basket a {
+  font-size: 20px;
+  color: rgb(172, 7, 2);
+  text-decoration: none;
+}
+
+.menu {
+  display: block;
+  color: blue;
+  height: 300px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu h4 {
+  font-size: 30px;
+}
+
+.menu-list {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(172, 7, 2);
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  width: 800px;
+  margin-left: 100px;
+  margin-right: -40px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.content-block {
+  display: block;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  width: calc(33% - 50px);
+}
+
+.text-name {
+  color: blue;
+}
+
+.text-basket {
+  border-radius:30px ;
+  padding: 6px;
+  background: rgb(83, 3, 3);
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.content-img {
+  width: 100px;
+  height: 100px;
+}
