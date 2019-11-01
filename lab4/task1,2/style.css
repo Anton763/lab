@@ -49,6 +49,7 @@ body {
 }
 
 .menu-item {
+  display: flex;
   font-size: 20px;
   text-decoration: none;
   color: rgb(172, 7, 2);
