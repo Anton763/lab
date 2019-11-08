@@ -1,6 +1,8 @@
 .main {
   display: flex;
   justify-content: center;
+  border: 2px solid blue;
+  padding-bottom: 40px;
 }
 
 .total-commander-title {
@@ -31,12 +33,16 @@
   display: block;
   width: 220px;
   height: 130px;
-  border: 2px solid slategrey;
+  border: 2px solid rgb(41, 47, 53);
   font-size: 20px;
   position: relative;
 }
 
 .container-item-description {
   float: right;
-  color: rgb(105, 105, 105);
+  color: rgb(24, 23, 23);
+}
+
+.container.selected .container-item.selected {
+  background-color: aqua;
 }
