@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.total-commander-title {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  position: relative;
+}
+
+.content-position {
+  width: 50%;
+}
+
+.content-way-item {
+  font-size: 13px;
+  width: 220px;
+  height: 20px;
+}
+
+.container {
+  margin-top: 20px;
+  display: block;
+  width: 220px;
+  height: 130px;
+  border: 2px solid slategrey;
+  font-size: 20px;
+  position: relative;
+}
+
+.container-item-description {
+  float: right;
+  color: rgb(105, 105, 105);
+}
